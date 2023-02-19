@@ -1,0 +1,149 @@
+.navbar-section {
+    background-color: black;
+}
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar-logo:hover {
+    opacity: 0.8;
+}
+.help-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+.help-link:hover {
+    text-decoration: underline;
+}
+.navbar-container {
+    padding: .8%;
+}
+
+/* buttons */
+.submit-btn {
+    padding: 6px 35px 10px 35px;
+    font-size: 1.4em;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.signIn-btn {
+    margin-left: 15px;
+    padding: 6px 30px 10px 30px;
+    font-size: 1.5em;
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.signIn-btn:hover {
+    opacity: 0.8;
+}
+
+/* middle section */
+.search-container {
+    background-color: #dadbf1;
+    text-align: center;
+    padding: 8%;
+}
+.search-inp {
+    padding: 15px 35% 15px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1.3em;
+    transition: 0.3s;
+    
+}
+.search-inp:hover {
+    border: 1px solid #4C5FD5;
+}
+.heading {
+    font-size: 4.5em;
+    margin-bottom: 30px;
+}
+
+/* features section */
+.main-feature-container {
+    padding-top:10%;
+    padding-bottom: 8%;
+}
+.feature-container {
+    padding: 10px 10px 100px 0;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    column-gap: 25px;
+}
+.feature-img {
+    width: 100%;
+}
+.Feature-heading {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+}
+.feature-description {
+    font-size: 1.5em;
+    color: black;
+}
+.learn-more {
+    text-decoration: none;
+    font-size: 1.3em;
+    color:#4C5FD5;
+}
+.learn-more:hover {
+    text-decoration: underline;
+}
+/* footer */
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+}
+
+.myName {
+    font-size: 1.2em;
+    color: white;
+}
+
+@media (max-width:989px) {
+    .feature-container {
+        grid-template-columns: 25% 1fr;
+        margin-left: 30px;
+    }
+    .help-link {
+        margin-left: -150px;
+    }
+    .heading {
+        font-size: 2em;
+    }
+    .search-container {
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+    .search-inp {
+        padding-right: 180px;
+        padding-left: 10px;
+    }
+    footer {
+        padding: 10%;
+    }
+}
+
+@media (max-width:770px) {
+    .feature-container {
+        grid-template-columns: 15% 1fr;
+        padding-left: 0;
+    }
+    .main-feature-container {
+        padding-top: 100px;
+    }
+}
